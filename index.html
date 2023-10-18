@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+
+    <header>
+        <h1>Floricultura Digital</h1>
+    </header>
+
+    <style>
+        header {
+            text-align: center;
+            color: rgb(219, 64, 154);
+            font-size: x-large;
+            font-style: normal;
+        }
+        footer {
+            text-align: center;
+            margin-top: auto;
+            color: rgb(219, 64, 154);
+        }
+
+        img {
+            border-radius: 25px 0;
+        }
+
+        body {
+            background-image: url("background.png");
+            background-size: cover;
+        }
+
+    
+
+
+        .productCard {
+            display: flex;
+            align-items: center;
+            border-radius: 25px 0;
+            box-shadow: -9px 10px 15px 4px rgba(110, 102, 156, 0.51);
+            background-color: rgba(155, 219, 221, 0.623);
+            margin-bottom: 15px;
+            justify-content: space-between;
+        }
+        
+        .productDescription {
+            width: 850px;
+            font-style: italic;
+            font-size: large;
+            
+        }
+
+        .buttonContainer {
+            text-align: center;
+            padding: 5px 60px;
+
+        }
+
+        .button {
+            background-color:white;
+            border-radius: 10px; color: rgb(16, 173, 100);
+            font: arial;
+            padding: 5px 35px;
+            border-color: rgb(27, 194, 91);
+        
+
+        }
+        
+        .containerTable {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: stretch;
+            box-shadow: -9px 10px 15px 4px rgba(110, 102, 156, 0.51);
+            background-color: rgba(155, 219, 221, 0.623);
+            justify-content: space-between;
+        }
+
+        .containerContact {
+            width: 250px;
+            align-self: center;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: space-evenly;
+           
+        }
+
+        .voltar {
+            display: block;
+            text-align: right;
+            color: rgb(219, 64, 154);
+            font: Arial;
+        }
+
+        .buttonRegister {
+            background-color:white;
+            color: rgb(75, 25, 141);
+            font: arial;
+            border-radius: 10px;
+            border-color: rgb(98, 141, 177);
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+    
+<body>
+    <p style="text-align: center; font-size: large; ">Sejam bem vindos ao nosso catálogo digital! Temos diversos tipos de plantas, o site é pensado para você que não tem tempo de visitar nossa sementeira presencialmente, confira a disponibilidade e novidades por aqui!</p>
+    <hr>
+
+    <div class="productCard">
+        <img src="flor-1.jpg" alt="imagemKalanchoeRosa" width="200" height="150">
+        <span class="productDescription">
+            Conhecida também como a flor da fortuna, a kalanchoe é delicada e fácil de cuidar, se da muito bem no calor e com a escassez de água.
+        </span>
+
+        <div class="buttonContainer">
+            <span style="font-size: 20px;">
+                Preço: R$15,00 
+            </span> <br><br>
+            <button class="button">Comprar</button>
+        </div>   
+    </div> <br>  
+
+    <div class="productCard"> 
+        <img src="flor-2.png" alt="imagemMargaridaBranca" width="200" height="150">
+        <span class="productDescription">
+            A famosa for do (bem-me-quer/mal-me-quer), a margarida é uma das flores mais delicadas e populares da natureza. Pode ser usada tanto em ambientes internos quanto externos.
+        </span>
+
+        <div class="buttonContainer">
+            <span style="font-size: 20px;">
+                Preço: R$20,00 
+            </span> <br><br>
+            <button class="button">Comprar</button>
+        </div> 
+    </div> <br>
+
+    <div class="productCard">
+        <img src="flor-3.png" alt="imagemDahliaPinnataRoxa" width="200" height="150">
+        <span class="productDescription">
+            A dália é uma planta florífera, devem ser cultivadas a pleno sol porém também vão bem a meia-sombra, tolera frio porém não gosta de ventos muito fortes. A floração dela ocorre no verão, perfeita para embelezar seu jardim!
+        </span>
+
+        <div class="buttonContainer">
+            <span style="font-size: 20px;">
+                Preço: R$30,00 
+            </span> <br><br>
+            <button class="button">Comprar</button>
+        </div> 
+    </div> <br>
+
+    <div class="productCard">
+        <img src="flor-4.png" alt="imagemCinerariaMaritima" width="200" height="150">
+        <span class="productDescription">
+            Muito utilizada para fins ornamentais, a cineária é uma planta toda branca, qu elembra pinheiros coberto de neves, crescmento rápido e consegue se adpatar a climas quentes. O seu verde prateado fica mais esbranquiçado quando recebe bastante sol, na sombra a textura aveludada é mais discreta.
+        </span>
+
+        <div class="buttonContainer">
+            <span style="font-size: 20px;">
+                Preço: R$15,00 
+            </span> <br><br>
+            <button class="button">Comprar</button>
+        </div> 
+    </div> <br>
+
+    <div class="productCard">
+        <img src="flor-5.png" alt="imagemPoinsettia" width="200" height="150">
+        <span class="productDescription">
+            Conhecida popularmente como a flor-do-natal e bico-de-papagaio a Poinsettia tem destaque nos jardins e decorações! O tom vermelho vibrante é a sua marca registrada, embora haja variedades. Se desenvolve a meia-sombra (sol somente no início da manhã nesse caso).
+        </span>
+
+        <div class="buttonContainer">
+            <span style="font-size: 20px;">
+                Preço: R$40,00 
+            </span> <br><br>
+            <button class="button">Comprar</button>
+        </div> 
+    </div> 
+    
+    <br> <br> <br><br>
+
+    <div style="text-align: center; color: rgb(219, 64, 154);">
+        <h1>Como cuidar da sua planta? Veja aqui!</h1>
+    </div> <br>
+    
+
+    <div class="containerTable">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td style="font-size: large;
+                    font-weight: bold;">Kalanchoe</td>
+                    <td>Aguação 1x na semana</td>
+    
+                </tr>
+    
+                <tr>
+                    <td style="font-size: large;
+                    font-weight: bold;">Margarida</td>
+                    <td>Aguação 1x ao dia, nas primeiras horas do dia.</td>
+    
+                </tr>
+    
+                <tr>
+                    <td style="font-size: large;
+                    font-weight: bold;">Dahlia Pinnata</td>
+                    <td>Aguação moderada</td>
+                </tr>
+    
+                <tr>
+                    <td style="font-size: large;
+                    font-weight: bold;">Cineária Marítima</td>
+                    <td>Aguação 1x ao dia, nas primeiras horas do dia.</td>
+                </tr>
+    
+                <tr>
+                    <td style="font-size: large;
+                    font-weight: bold;">Poinsettia</td>
+                    <td>Aguação 2x na semana, nas primeiras horas do dia. </td>
+                </tr>
+    
+            </thead>
+        </table>
+    </div> <br><br>
+
+    <div style="text-align: center; color: rgb(219, 64, 154);">
+        <h1>Receba nossas novidades fazendo seu cadastro no site</h1>
+    </div>
+
+    <div style="text-align: -webkit-center;">
+    
+        <form class="containerContact" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome" required> <br>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required> <br>
+    
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Somente números"> <br>
+    
+            <label for="aceite">Aceita receber nossas novidades?</label>
+            <select name="" id="aceite">
+                <option value="0">-</option>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select> <br>
+            
+            <div>
+                <button class="buttonRegister">Cadastrar</button>
+                <input class="buttonRegister"  type="reset" value="Limpar">
+            </div>
+
+        </form>
+    </div> <br>
+
+    <a href="#" class="voltar">Voltar</a>
+    <br>
+
+    <footer>© 2023 Ana Patrícia.</footer>
+</body>
+</html>
